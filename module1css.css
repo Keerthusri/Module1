@@ -1,0 +1,163 @@
+
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-family: 'Ruda';
+}
+.container-nav,.container-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+navbar{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 999;
+    background-color: #000000;
+}
+.pizza{
+    padding-left: 2vw;
+}
+.middle span{
+    padding: 2vw;
+}
+.image{
+    padding-right: 2vw;
+}
+.image1{
+    width: 5vw;
+    height: 5vw;
+}
+.pizza-image{
+    width: 100vw;
+    height: auto;
+}
+.pizza-section{
+    position: relative;
+    display: flex;
+    flex-direction: column wrap;
+    
+}
+.text,.red,.para{
+    position: absolute;
+    top:0px
+}
+.text{
+    top:240px;
+    left:16px;
+    padding-left: 36px;
+}
+.para{
+    height: 325px;
+    width: 599px;
+    left: 116px;
+    top: 613px;
+    border-radius: nullpx;
+
+}
+.weight{
+    font-size: 7vw;
+    font-family: 'Quattrocento';
+    margin: 0px;
+}
+.para p{
+    margin: 0px;
+}
+.red{
+    background-color:  #F24C4C;
+    height: 13px;
+    width: 586px;
+    left: 116px;
+    top: 533px;
+    border-radius: 0px;
+
+}
+.about,.menu{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.aboutus{
+    display: flex;
+    justify-content: space-around;
+}
+.bar1{
+    height: 9px;
+    width: 479px;
+    margin: auto;
+    background-color: #F24C4C;
+    border-radius: 0px;
+}
+
+.dough-image{
+    margin-top: 50px;
+    height: 300px;
+    width: auto;
+}
+.bar{
+    height: 4px;
+    width: 200px;
+    background-color: #F24C4C;
+    border-radius: 0px;
+    margin-top: 100px;
+
+}
+.para1,.para2{
+    margin: 0px;
+}
+.menu-para{
+    margin-top: 30px;
+}
+.para2{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.cards1,.cards{
+    margin-top: 40px;
+}
+.cards2,.location,.phone,.find,.mail,.footer{
+    display: flex;
+}
+.cards{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+}
+.about{
+    font-family: 'Quattrocento';
+}
+.white{
+    margin-left: 80px;
+    color: #484848;
+}
+.find,.footer{
+    justify-content: space-around;
+}
+.footer,.find{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.loc,.call,.envelope{
+    width: 35.25px;
+    height: 35.25px ;
+    padding: 20px;
+}
+.loc-text,.loc-call{
+    justify-content: center;
+}
+.loc-text,.loc-call,.gmail{
+    margin-top: 10px;
+}
+.aboutus,.find,.footer{
+    margin-left: 40px;
+}
+.cards{
+    margin-left: 80px;
+}
+.ipsum{
+    margin-left: 10px;
+}
